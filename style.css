@@ -1,0 +1,46 @@
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  padding: 10px;
+  margin: 5px 0;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+label.error {
+  color: red;
+  font-style: italic;
+}
+select {
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #dfe5e7;
+}
